@@ -1,0 +1,258 @@
+body{
+    font-family: "Montserrat";
+   margin: 0%;
+   box-sizing: border-box;
+}
+
+
+.navbar{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+/* sticky navbr */
+
+
+/* header */
+/* adjusting opacity of background img */
+.header{
+    position: relative;
+    height: 1200px;
+    text-align: center;
+    background-color: black;
+
+}
+.header::before{
+    content:"";
+    position: absolute;
+    top:0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    opacity: 0.4;
+    background-image: url(img/bg-hotel.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+   
+}
+
+h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 6rem;
+
+}
+.tagline{
+    font-size: 4rem;
+}
+
+/* Cheer the Beer */
+.span-beer{
+    color: darkorange;
+}
+.span-p-beer{
+    font-weight: bold;
+}
+.bar-span{
+    font-weight: bold;
+}
+.cheer-h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+.cheer-p{
+    margin-bottom: 20%;
+}
+.p1{
+    margin-bottom: 10%;
+}
+
+/* food Section */
+.food-img{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 15%;
+}
+.food-h2{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.p-bold{
+   font-weight: bold;
+}
+.span-f-h2{
+  color: darkorange;
+}
+.food-p{
+  margin-bottom: 20%;
+}
+.chef-p1{
+  margin-bottom: 10%;
+}
+
+/* Adjusting Carousel */
+#features{
+    background-color: #B7D3DF;
+
+}
+.features-h2{
+    margin-top: 3%;
+    color: black;
+    font-size:2.5rem;
+    margin-bottom: 5%;
+}
+.features-p{
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+.features-img{
+    height: 600px;
+    width: 800px;
+    margin-bottom: 5%;
+}
+.view{
+    width: 1000px;
+}
+.food{
+    width: 1000px;
+}
+#features-carousel{
+
+    text-align: center;
+
+
+}
+.button{
+    color: gray;
+}
+
+/* Pricing section */
+#pricing{
+    background-color: #B7E5DD;
+    text-align: center;
+
+}
+.row{
+    margin: 5% 5% auto;
+
+}
+.pricing-column{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.pricing-h2{
+    font-size: 2.5rem;
+    color: black;
+    padding-top: 3%;
+}
+
+/* Contact Me */
+#contact-me{
+    text-align: center;
+    margin-top: 3%;
+
+}
+.contact-h2{
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+.contact-btn{
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 3%;    
+}
+
+/* Bottom Container  */
+.bottom-container {
+    text-align: center;
+    background-color: #66BFBF;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 200px;
+    padding-top: 60px;
+  }
+  .footer-link{
+    margin: 10px 20px;
+    color: #11999E;
+    text-decoration: none;
+    margin-bottom: 2%;
+  }
+  .copy{
+    margin-top: 2%;
+  }
+
+  .form{
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(221, 212, 212), rgb(255, 255, 255));
+    margin-left: 40%;
+    margin-right: 40%;
+   
+  }
+  .i-name{
+    margin-top: 50px;
+  }
+  input {
+    border-radius: 14px;
+    border-width: 0;
+    margin: 10px 0  20px 0 ;
+    padding: 10px 5px 10px 5px ;
+    background-image: radial-gradient(rgb(221, 212, 212),rgb(255, 255, 255) rgb(255,255,255), rgb(221, 212, 212));
+    
+  }
+  textarea{
+    border-radius: 14px;
+    border-width: 0;
+    margin: 10px 0  0 0 ;
+    padding: 10px 5px 10px 5px ;
+  }
+  button{
+    border-radius: 14px;
+    border-width: 0;
+    margin: 50px 0  0 0 ;
+    padding: 15px 10px 15px 10px ;
+    width: 100px;
+  }
+
+
+  /*                           Standard Rooms                                   */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+
+  
